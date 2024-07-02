@@ -49,12 +49,10 @@ const ContactsList = () => {
                         <li key={contact._id} className="w-[90vw] mx-10 rounded-xl border-solid border-slate-500 border-2 bg-slate-50 p-4 shadow flex flex-col md:flex-row justify-between md:items-center items-start">
                             <div>
                                 <p className="font-bold">{contact.name}</p>
+                                <p>{contact.createdAt}</p>
                                 <p>{contact.email}</p>
                                 <p>{contact.phone}</p>
                                 <p>{contact.message}</p>
-                            </div>
-                            <div>
-                                <p className="font-bold">{contact.createdAt}</p>
                             </div>
                             <button
                                 onClick={() => handleDelete(contact._id)}

@@ -26,7 +26,7 @@ const ContactsList = () => {
         };
 
         fetchContacts();
-    }, []);
+    },);
 
     const handleDelete = async (id) => {
         try {

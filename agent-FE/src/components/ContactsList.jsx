@@ -44,9 +44,9 @@ const ContactsList = () => {
             {/* Display Contacts */}
             <div className="mx-auto  ">
                 <h3 className="m-auto p-4 text-center text-4xl font-bold bg-slate-500">Enquires</h3>
-                <ul className="mt-4 space-y-2 flex flex-col-reverse items-center justify-start">
+                <ul className="mt-4 space-y-2 flex flex-col-reverse items-center">
                     {contacts.map((contact) => (
-                        <li key={contact._id} className="w-[90vw] mx-10 rounded-xl border-solid border-slate-500 border-2 bg-slate-50 p-4 shadow flex flex-col md:flex-row justify-between md:items-center items-start">
+                        <li key={contact._id} className="w-[90vw] mx-10 mt-8 rounded-xl border-solid border-slate-500 border-2 bg-slate-50 p-4 shadow flex flex-col md:flex-row justify-between md:items-center items-start">
                             <div>
                                 <p className="font-bold">{contact.name}</p>
                                 <p>{contact.createdAt}</p>

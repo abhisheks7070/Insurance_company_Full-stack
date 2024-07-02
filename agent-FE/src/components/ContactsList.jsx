@@ -54,7 +54,7 @@ const ContactsList = () => {
                                 <p>{contact.message}</p>
                             </div>
                             <div>
-                                <p className="font-bold">{contact.createdAT}</p>
+                                <p className="font-bold">{contact.createdAt}</p>
                             </div>
                             <button
                                 onClick={() => handleDelete(contact._id)}

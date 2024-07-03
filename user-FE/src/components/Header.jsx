@@ -14,7 +14,7 @@ const [correct, setCorrect] = useState("")
         <input type="text" value={correct} onChange={(e)=>setCorrect(e.target.value)} className='py-1 px-3 rounded-xl text-black  w-[50vw] md:w-auto' placeholder='Enter Agent website code' />
       </span>
       <span className='text-black'>
-        {correct=="Abhishek"? (<a className=' border-3 border-solid border-black px-1.5 bg-green-500 rounded-xl' href="https://ps-agent.onrender.com/" target="_blank">Click</a>) : (<span className='border-3 border-solid border-black bg-red-600 px-1.5 rounded-xl'>Incorrect</span>)}</span>
+        {(correct.trim()) == "Abhishek" && (<a className=' border-3 border-solid border-black px-1.5 bg-green-500 rounded-xl' href="https://ps-agent.onrender.com/" target="_blank">Click</a>)}</span>
     </div>
   </div>
     

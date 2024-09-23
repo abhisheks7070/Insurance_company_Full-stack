@@ -4,7 +4,7 @@
 
 /* index.css or App.css */
 body {
-  background-color: #ecd691;
+  background-color: rgb(189, 189, 189);
     transition: background-color 0.3s, color 0.3s; border: 0.3s;
   }
   

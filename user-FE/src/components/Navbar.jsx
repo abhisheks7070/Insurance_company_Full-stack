@@ -33,7 +33,7 @@ const Navbar = () => {
   }, []);
   
   return (<>
-      <nav className= {`transition-all duration-500 ${showNavbar ? 'display-block' : 'hidden'} navbar sticky top-0 z-50  flex  justify-between items-start md:items-center bg-slate-700 md:py-0.5 md:px-3 p-2  md:p-3`}>
+      <nav className= {`transition-all duration-500 ${showNavbar ? 'display-block' : 'hidden'} navbar sticky top-0 z-50  flex  justify-between items-start md:items-center bg-slate-800 md:py-0.5 md:px-3 p-2  md:p-3`}>
         {/* <div className="text-white text-xl md:text-3xl font-bold">Pankaj FinanceGaurd Solutions.</div> */}
         <div className=" text-l md:text-2xl  md:flex space-x-4">
           <a href="#home" className="text-white hover:text-gray-700 transition duration-300">Home</a>
@@ -48,7 +48,7 @@ const Navbar = () => {
           {darkMode ? <div className = " flex items-center gap-2 "><MdOutlineDarkMode /></div> : <div className = "flex gap-2 items-center"><MdDarkMode /></div>}
         </button>
     </nav>
-      <nav className = {`transition-opacity duration-500 ${showNavbar ? 'hidden' : 'display-block'} navbar z-50  flex  justify-between items-start md:items-center bg-slate-700 md:py-0.5 md:px-3 p-2  md:p-3`}>
+      <nav className = {`transition-opacity duration-500 ${showNavbar ? 'hidden' : 'display-block'} navbar z-50  flex  justify-between items-start md:items-center bg-slate-800 md:py-0.5 md:px-3 p-2  md:p-3`}>
         {/* <div className="text-white text-xl md:text-3xl font-bold">Pankaj FinanceGaurd Solutions.</div> */}
         <div className=" text-l md:text-2xl  md:flex space-x-4">
           <a href="#home" className="text-white hover:text-gray-700 transition duration-300">Home</a>

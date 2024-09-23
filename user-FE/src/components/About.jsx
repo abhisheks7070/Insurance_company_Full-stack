@@ -5,7 +5,7 @@ const About = () => {
   return (<>
     <section id="about" className=" bg-gray-100 text-center  p-4 h-auto">
       <Divider />
-      <h2 className="text-3xl md:text-4xl font-bold text-[#fb0101] pt-10 md:pt-20">About Us</h2>
+      <h2 className="text-3xl md:text-4xl font-bold pt-10 md:pt-20">About Us</h2>
       <div className='w-[80vw] md:mt-10 m-auto  flex flex-col md:flex-row justify-around items-center'>
         <div className='md:w-[40vw] '>
         

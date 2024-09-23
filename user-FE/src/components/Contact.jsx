@@ -46,7 +46,7 @@ const Contact = () => {
   return (<>
     <section id="contact" className="bg-gray-100 text-center p-4 md:px-0 h-auto ">
       <Divider />
-      <h2 className="text-3xl md:text-4xl font-bold text-[#fb0101] pt-10 md:pt-20">Contact Us</h2>
+      <h2 className="text-3xl md:text-4xl font-bold pt-10 md:pt-20">Contact Us</h2>
       <p className="mt-4">Reach out to us for any inquiries or assistance.</p>
       <form className="form mt-8 max-w-xl mx-auto space-y-4" onSubmit={handleSubmit}>
         <input
@@ -55,7 +55,7 @@ const Contact = () => {
           placeholder="Name"
           value={formData.name}
           onChange={handleChange}
-          className="block w-full p-3 border border-gray-300 rounded"
+          className="block w-full p-3 border border-gray-900 placeholder:text-gray-500 rounded"
           required
         />
         <input
@@ -64,7 +64,7 @@ const Contact = () => {
           placeholder="Email"
           value={formData.email}
           onChange={handleChange}
-          className="block w-full p-3 border border-gray-300 rounded"
+          className="block w-full p-3 border border-gray-900 placeholder:text-gray-500 rounded"
         />
         <input
           type="number"
@@ -72,7 +72,7 @@ const Contact = () => {
           placeholder="Mobile number"
           value={formData.phone}
           onChange={handleChange}
-          className="block w-full p-3 border border-gray-300 rounded"
+          className="block w-full p-3 border border-gray-900 placeholder:text-gray-500 rounded"
           required
         />
         <textarea
@@ -80,12 +80,12 @@ const Contact = () => {
           placeholder="Message"
           value={formData.message}
           onChange={handleChange}
-          className="block w-full p-3 border border-gray-300 rounded"
+          className="block w-full p-3 border border-gray-900 placeholder:text-gray-500 rounded"
           required
         />
         <button
           type="submit"
-          className="bg-[#fb0101] text-white px-6 py-3 rounded font-bold hover:bg-blue-700"
+          className="bg-blue-700 text-white px-6 py-3 rounded font-bold hover:bg-blue-700"
         >
           Send Message
         </button>
@@ -93,7 +93,7 @@ const Contact = () => {
       {statusMessage && <p className="mt-4 text-red-500">{statusMessage}</p>}
 
       {/* WhatsApp Link */}
-      <p className="mt-8">Prefer WhatsApp? <a href="https://api.whatsapp.com/send?phone=8446820924&text=Hello%2C%20I%20have%20a%20question%20about%20your%20services" target="_blank" rel="noopener noreferrer" className="text-[#fb0101] hover:underline">Chat with us on WhatsApp</a>.</p>
+      <p className="mt-8">Prefer WhatsApp? <a href="https://api.whatsapp.com/send?phone=8446820924&text=Hello%2C%20I%20have%20a%20question%20about%20your%20services" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:underline">Chat with us on WhatsApp</a>.</p>
     </section>
   </>
   );

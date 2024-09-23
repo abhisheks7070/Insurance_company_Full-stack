@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <section id="home" className="text-center py-10 md:py-20 md:px-0 text-0.7rem h-auto">
-        <h1 className="text-3xl md:text-5xl font-bold text-[#fb0101]">Welcome to Thakur & Sons.</h1>
+        <h1 className="text-3xl md:text-5xl font-bold">Welcome to Thakur & Sons.</h1>
         <div className='w-[80vw] md:mt-10 m-auto  flex flex-col-reverse md:flex-row justify-around'>
           <div className='md:w-[40vw]'>
             <div className="relative m-auto w-full md:w-4/5 my-10 pb-full border-dotted border-2 border-pink-300 bg-pink-200 rounded-full">

@@ -10,8 +10,8 @@ const Header = () => {
 
   return (
   <>
-  <div className='header h-[17vh] lg:h-[40vh] w-[100vw]'>
-    <img className='object-fill h-[17vh] lg:h-[40vh] w-[100vw]' src= {header} alt="" />
+  <div className='bg-slate-900 header h-[25vh] lg:h-[40vh] w-[100vw] flex justify-center items-center'>
+    <img className=' object-fill h-[20vh] lg:h-[35vh] w-[99vw] rounded-2xl' src= {header} alt="" />
     {/* <div className='head text-white text-3xl md:text-5xl font-bold  '>Pankaj FinanceGaurd Solutions.</div> */}
     </div>
     <div>

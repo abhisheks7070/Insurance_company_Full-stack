@@ -29,7 +29,7 @@ const Home = () => {
               <div className='text-xl md:text-3xl'>PANKAJ SINGH</div>
               <div className='text-base md:text-xl '>Founder</div>
             </div>
-            <p className=" text-l md:text-2xl md:w-3/4 mt-8 mx-auto text-left">We specialize in helping individuals and businesses navigate the complexities of insurance and financing. Whether you're looking to protect your assets with comprehensive insurance coverage or seeking expert financial guidance, we're here to assist you every step of the way. Our goal is to provide tailored solutions that meet your unique needs, ensuring peace of mind and financial security. Explore our services and discover how we can help you achieve your financial goals with confidence.</p>
+            <p className=" mt-4 md:w-3/4 text-xl md:text-2xl mx-auto text-left">We specialize in helping individuals and businesses navigate the complexities of insurance and financing. Whether you're looking to protect your assets with comprehensive insurance coverage or seeking expert financial guidance, we're here to assist you every step of the way. Our goal is to provide tailored solutions that meet your unique needs, ensuring peace of mind and financial security. Explore our services and discover how we can help you achieve your financial goals with confidence.</p>
           </div>
         </div>
       </section>

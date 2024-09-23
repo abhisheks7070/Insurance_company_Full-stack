@@ -34,7 +34,7 @@ const About = () => {
               </Player>
             </div>
             <p className=" mt-4 md:w-3/4 text-xl md:text-2xl mx-auto text-left">
-          At Pankaj FinanceGuard Solutions, we specialize in providing comprehensive insurance and financing solutions tailored to meet your needs. With a commitment to integrity and personalized service, we strive to safeguard your future and empower your financial goals. Whether you're looking for reliable insurance coverage or expert financial advice, our experienced team is here to guide you every step of the way. Trust us to protect what matters most and navigate your financial journey with confidence.
+          At Thakur & Sons, we specialize in providing comprehensive insurance and financing solutions tailored to meet your needs. With a commitment to integrity and personalized service, we strive to safeguard your future and empower your financial goals. Whether you're looking for reliable insurance coverage or expert financial advice, our experienced team is here to guide you every step of the way. Trust us to protect what matters most and navigate your financial journey with confidence.
         </p>
           </div>
       </div>

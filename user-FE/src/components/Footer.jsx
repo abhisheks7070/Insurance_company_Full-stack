@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-0">
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 mb-8 md:mb-0">
-            <h3 className="text-xl font-bold">Pankaj FinanceGaurd Solutions.</h3>
+            <h3 className="text-xl font-bold">Thakur & Sons.</h3>
             <p className="text-gray-200 mt-4">
               We provide the best insurance policies for your needs.
             </p>

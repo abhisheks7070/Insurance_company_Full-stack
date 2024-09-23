@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className=" footer bg-slate-800 text-white py-8">
+    <footer className=" footer bg-[#ff4900] text-white py-8">
       <div className="container mx-auto px-4 md:px-0">
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 mb-8 md:mb-0">
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
           <div className="w-full md:w-1/3">
             <h3 className="text-xl font-bold">Contact Us</h3>
-            <p className="text-gray-200 mt-4">Email: info@insuranceco.com</p>
+            {/* <p className="text-gray-200 mt-4">Email: info@insuranceco.com</p> */}
             <p className="text-gray-200 mt-2">Phone: (+91) 8446820924
             </p>
             {/* <div className="flex mt-4 space-x-4">

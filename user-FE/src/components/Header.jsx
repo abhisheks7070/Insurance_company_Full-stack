@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Footer from './Footer'
+import header from '../../assets/header.jpeg'
 
 
 
@@ -7,17 +8,23 @@ const Header = () => {
 
   const [correct, setCorrect] = useState("")
 
-  return (<div className='flex flex-col gap-4 justify-between items-start bg-slate-800 p-5 md:py-10 md:px-6'>
-    <div className='head text-white text-3xl md:text-5xl font-bold  '>Pankaj FinanceGaurd Solutions.</div>
-    
-    <div className='text-xs md:text-xl'>
-      <span className='mr-2'>
-        <input type="text" value={correct} onChange={(e) => setCorrect(e.target.value)} className='py-1 px-3 rounded-xl text-black w-auto' placeholder='Enter Agent website code' />
-      </span>
-      <span className='text-black'>
-        {(correct.trim()) == "Abhishek" && (<a className=' border-3 border-solid border-black px-1.5 bg-green-500 rounded-xl' href="https://ps-agent.onrender.com/" target="_blank">Click</a>)}</span>
+  return (
+  <>
+  <div className='header h-[17vh] md:h-[40vh] w-[100vw]'>
+    <img className='object-fill h-[17vh] md:h-[40vh] w-[100vw]' src= {header} alt="" />
+    {/* <div className='head text-white text-3xl md:text-5xl font-bold  '>Pankaj FinanceGaurd Solutions.</div> */}
+    </div>
+    <div>
+      
+    <div className='bg-slate-900 text-xs md:text-xl flex justify-center items-center'>
+      <div className=' py-3'>
+        <input type="text" value={correct} onChange={(e) => setCorrect(e.target.value)} className='placeholder-black py-1 px-3 rounded-xl text-black w-auto' placeholder='Enter Agent website code' />
+      </div>
+      <div className='text-black py-3'>
+        {(correct.trim()) == "Pankaj_Singh" && (<a className=' border-3 border-solid border-black px-1.5 bg-green-500 rounded-xl' href="https://ps-agent.onrender.com/" target="_blank">Click</a>)}</div>
     </div>
   </div>
+  </>
 
   )
 }

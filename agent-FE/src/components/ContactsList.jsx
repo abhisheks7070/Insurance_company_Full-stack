@@ -43,7 +43,7 @@ const ContactsList = () => {
         <>
             {/* Display Contacts */}
             <div className="mx-auto  ">
-                <h3 className="m-auto p-4 text-center text-4xl font-bold bg-slate-500">Enquires</h3>
+                <h3 className="m-auto p-4 text-center text-4xl font-bold bg-slate-500">Enquiries</h3>
                 <ul className="mt-4 gap-1 flex flex-col-reverse items-center">
                     {contacts.map((contact) => (
                         <li key={contact._id} className="w-[90vw] mx-10 rounded-xl border-solid border-slate-500 border-2 bg-slate-50 p-4 shadow flex flex-col md:flex-row justify-between md:items-center items-start">

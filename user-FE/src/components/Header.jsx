@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Footer from './Footer'
-import header from '../../assets/header.jpeg'
+import header from '../../assets/header.jpg'
 
 
 

@@ -10,10 +10,10 @@ const Header = () => {
 
   return (
   <>
-  <div className='bg-slate-700 header h-[25vh] lg:h-[40vh] w-[100vw] flex justify-center items-center'>
-    <img className=' object-fill h-[20vh] lg:h-[35vh] w-[99vw] rounded-2xl' src= {header} alt="" />
+  
+    <img className=' object-fill h-[20vh] lg:h-[35vh] w-[99vw]' src= {header} alt="" />
     {/* <div className='head text-white text-3xl md:text-5xl font-bold  '>Pankaj FinanceGaurd Solutions.</div> */}
-    </div>
+    
     <div>
       
     <div className='bg-slate-700 text-xs md:text-xl flex justify-center items-center'>

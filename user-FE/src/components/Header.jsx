@@ -11,7 +11,7 @@ const Header = () => {
   return (
   <>
   
-    <img className=' object-fill h-[12vh] lg:h-[25vh] w-[99vw]' src= {header} alt="" />
+    <img className=' object-fill h-[18vw] lg:h-[25vh] w-[99vw]' src= {header} alt="" />
     {/* <div className='head text-white text-3xl md:text-5xl font-bold  '>Pankaj FinanceGaurd Solutions.</div> */}
     
     <div>
